@@ -16,7 +16,7 @@ public class Main {
 		printAllOVChipkaarten(ovdao);
 		printAllReizigers(rdao);
 
-		Reiziger Mohamed = new Reiziger(19, "MO", " ", "Hussen",  Date.valueOf("1999-12-24"));
+		Reiziger Mohamed = new Reiziger(19, "MO", "", "Hussen",  Date.valueOf("1999-12-24"));
 		OVChipkaart mohamedovkaart = new OVChipkaart(12345, Date.valueOf("2022-01-01"), 2, (float) 99.99, Mohamed);
 		OVChipkaart mohamedovkaart2 = new OVChipkaart(54321, Date.valueOf("2023-01-02"), 1, (float) 52.85, Mohamed);
 		Mohamed.voegOvchipkaartToe(mohamedovkaart);
